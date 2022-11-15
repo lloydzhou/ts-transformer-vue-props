@@ -1,0 +1,30 @@
+{
+  "name": "ts-transformer-vue-props",
+  "version": "0.0.1",
+  "description": "A TypeScript custom transformer which generate vue3 props for given type.",
+  "script": {
+    "start": "ttsc",
+    "build": "tsc transformer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lloydzhou/ts-transformer-vue-props.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "transformer.js",
+    "transformer.ts"
+  ],
+  "author": "lloydzhou",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.8.4"
+  }
+}
